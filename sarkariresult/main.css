@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.outer{
+    width:90%;
+    height: auto;
+    margin: auto;
+}
+.head{
+    margin-top: 0px;
+    width: 100%;
+    height:200px;
+    background-color:brown;
+    display: inline-block;
+
+}
+.text{
+    margin-top: 50px;
+    width:100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+img{
+    margin:10px ;
+    position:absolute;
+    height:170px;
+    width:180px;
+    float: left;
+    margin-bottom: 0px;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 18px;
+}
+.ulist{
+    padding-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.list{ 
+    margin: 0px;
+    padding:0px;
+    color:white;
+    list-style:none;
+    display: inline-block;
+    text-align: center;
+    width: 13%;
+    color: white;
+    background-color: black;
+    margin-right: 1px;
+    cursor: pointer;
+    display: block;
+}
+h2,h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.nav_item{
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+a{
+    font-size:20px;
+}
+a:hover{
+    color: blue;
+}
+.collection{
+    display:inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    /* margin-bottom: 2px; */
+}
+.box{
+    height: 50px;
+    width:25%;
+    background-color:darkblue;
+    margin: 2px;
+    text-align: center;
+    color:white;
+    display: block;
+    cursor: pointer;
+
+}
+
+#box1{
+    background-color:rgb(11, 206, 232);
+}
+#box3{
+    background-color:orangered;
+}
+#box4{
+    background-color: rgb(90, 130, 12);
+}
+
+#box5{
+    background-color:red;
+}
+
+#box6{
+    background-color:green;
+}
+
+#box7{
+    background-color:magenta;
+}
+
+#box8{
+    background-color:rgba(26, 188, 177, 0.774);
+}
+
+.column{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.result,.admit_card,.Latest{
+    /* display: inline-flex; */
+    /* justify-content: space-between; */
+    width: 32%;
+    border:1px orangered solid;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+.main{
+    height: 40px;
+    /* width: 30%; */
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+.main a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.main a:hover{
+    text-decoration: underline;
+}
+.main a:active{
+    color: blue;
+}
+h3 .boxitem{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type:disc;
+    margin-bottom: 15px;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border:1px red solid;
+    text-align: center;
+}
+.content h2{
+    background-color: maroon;
+    color: white;
+    margin-top: 0px;
+    padding: 5px;
+}
+.Discover{
+    border-bottom: 1px grey solid;
+    text-align:left;
+    padding: 10px;
+    width: 97%;
+    margin: auto;
+
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+.latestJob{
+    height:auto;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border: 1px black solid;
+}
+.latestJob li{
+    list-style: none;
+    text-decoration: none;
+    height: 40px;
+    line-height: 40px;
+    width: 95%;
+    border-bottom: 1px grey solid;
+    margin-bottom: 0px;
+}
+.latestJob li:hover{
+    background:grey;
+
+}
+.latestJob li a{
+    text-decoration: none;
+    display: block;
+
+}
+.latest_head{
+    height: 40px;
+    width: 100%;
+    background: maroon;
+    color: white;
+    line-height:40px;
+
+}
+.latest_head a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
